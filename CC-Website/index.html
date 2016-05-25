@@ -61,6 +61,7 @@
                 <a class="navbar-brand page-scroll" href="#page-top">CC ❤ KK</a>
             </div>
 			
+			<!-- 
 			<div class="navbar-header">	
 				<div class="bbplayer" id="bbplayer1">
 					<span class="bb-rewind"></span>
@@ -81,6 +82,7 @@
 					</audio>
 				</div>
 			</div>
+			-->
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -272,8 +274,26 @@
     <aside class="bg-dark" id="words">
         <div class="container text-center">
             <div class="call-to-action">
-                <h2>Wait To Build</h2>
-                <a href="#" class="btn btn-default btn-xl wow tada">Start Now!</a>
+                <h2>Music Bar</h2>
+                <!-- <a href="#" class="btn btn-default btn-xl wow tada">Start Now!</a> -->
+				<div class="bbplayer" id="bbplayer1">
+					<span class="bb-rewind"></span>
+					<span class="bb-play"></span>
+					<span class="bb-forward"></span>
+					<div class="playerWindow">
+				    	<div>
+				    		<span class="bb-trackTime">--:--</span>
+				        	<span class="bb-trackTitle">&nbsp;</span>
+				        	<span class="bb-trackLength">--:--</span>
+				   	 	</div>
+					</div>
+					<audio loop autoplay>
+						<source
+							src="music/One Call Away.mp3" type="audio/mpeg" />
+						<source
+							src="music/Some Type Of Love.mp3" type="audio/mpeg" />
+					</audio>
+				</div>
             </div>
         </div>
     </aside>
@@ -289,10 +309,12 @@
                 <div class="col-lg-4 col-lg-offset-2 text-center">
                     <i class="fa fa-phone fa-3x wow bounceIn"></i>
                     <p>189,6460,1412</p>
-                </div>
-                <div class="col-lg-4 text-center">
                     <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
                     <p><a href="mailto:your-email@your-domain.com">kyle.yang1995@gmail.com</a></p>
+                </div>
+                <div class="col-lg-4 text-center">
+				    <div id="uyan_frame"></div>
+				    <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2094419"></script>
                 </div>
             </div>
         </div>
